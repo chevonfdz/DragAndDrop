@@ -1,0 +1,22 @@
+
+.Webui .mediators1 {
+	position: relative;
+	width: 182px;
+	height: 39px;
+	background: rgba(217,217,217,1.00);
+	border-radius: 5px;
+	margin-top: 90px;
+	margin-left: 90px;
+}
+
+.Webui .plus{
+	position: relative;
+	margin-left: 262px;
+	margin-top: -32px;
+}
+
+.JsonText {
+	position: relative;
+	margin-top: 150px;
+	margin-left: 90px;
+}
