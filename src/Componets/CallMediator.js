@@ -6,12 +6,11 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
-export default class MediatorButton extends React.Component {
+export default class CallMediator extends React.Component {
     render() {
         const popover = (
             <Popover id="popover-basic">
                 <ButtonGroup vertical>
-                    <Button onClick={this.props.onCallClick}>Call</Button>
                     <Button onClick={this.props.onDropClick}>Drop</Button>
                     <Button onClick={this.props.onLogClick}>Log</Button>
                     <Button onClick={this.props.onPropertyClick}>Property</Button>
@@ -27,7 +26,7 @@ export default class MediatorButton extends React.Component {
 
         return <div className='Webui'>
             <div className='popup'>
-                <button className='mediators1'>API Resource</button>
+                <button className='mediators1'>Call Mediator</button>
                 <div className='plus'>
                     <Popup trigger={<Example></Example>} position="rightcenter" />
                 </div>
