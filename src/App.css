@@ -11,12 +11,36 @@
 
 .Webui .plus{
 	position: relative;
-	margin-left: 262px;
-	margin-top: -32px;
+	margin-left: 170px;
+	margin-top: -10px;
 }
 
 .JsonText {
 	position: relative;
-	margin-top: 150px;
-	margin-left: 90px;
+}
+
+.ContentArea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.DraggingArea {
+	width: 50%;
+	height: 100%;
+}
+
+.CodeTextArea{
+	margin-top: 8%;
+	background-color:#bcc3cf ;
+	justify-content: center;
+	border: 2px solid black;
+	box-sizing: border-box;
+	width: 600px;
+	height: 500px;
+	padding: 50px;
+}
+
+.codeBtn {
+	margin-left: 80%;
 }
